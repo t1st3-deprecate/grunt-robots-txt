@@ -1,0 +1,46 @@
+{
+  "name": "grunt-robots-txt",
+  "version": "0.1.1",
+  "description": "Generates robots-txt.txt from your project",
+  "homepage": "https://github.com/T1st3/grunt-robots-txt",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/T1st3/grunt-robots-txt.git"
+  },
+  "bugs": "https://github.com/T1st3/grunt-robots-txt.git/issues",
+  "author": {
+    "name": "T1st3",
+    "email": "contact@tiste.org",
+    "url": "http://www.tiste.org"
+  },
+  "keywords": [
+    "gruntplugin",
+    "robots-txt",
+    "yahoo",
+    "seo",
+    "txt"
+  ],
+  "main": "grunt.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/T1st3/grunt-robots-txt/blob/master/LICENSE"
+    }
+  ],
+  "devDependencies": {},
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "chalk": "~0.4.0"
+  },
+  "scripts": {},
+  "files": [
+    "tasks",
+    "LICENSE"
+  ]
+}
