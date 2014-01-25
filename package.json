@@ -1,6 +1,6 @@
 {
   "name": "grunt-robots-txt",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Generates robots-txt.txt from your project",
   "homepage": "https://github.com/T1st3/grunt-robots-txt",
   "repository": {

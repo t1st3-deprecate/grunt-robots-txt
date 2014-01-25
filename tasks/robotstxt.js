@@ -17,7 +17,7 @@ chalk = require('chalk');
 module.exports = function (grunt) {
 	return grunt.registerMultiTask('robotstxt', 'Generates robots.txt', function() {
 		var policy, items, item, str, root, rootWarnMess, robotsPath;
-		root = path.normalize(this.data.dest || './');
+		root = path.normalize(this.data.dest || '.');
 		rootWarnMess = 'No "dest" parameter defined. Using current directory.';
 		if (root === '.') {
 			grunt.log.subhead(rootWarnMess);
@@ -25,16 +25,20 @@ module.exports = function (grunt) {
 		policy = this.data.policy || {'ua': '*', 'disallow': ''};
 		str = '';
 		items = _.map(policy, function (p) {
-			if ( p.ua && p.disallow ) {
+			if ( p.ua ) {
 				str += 'User-agent: ' + p.ua + '\n';
-				if ( typeof(p.disallow) == 'string' ) {
-					str += 'Disallow: ' + p.disallow + '\n\n';
-				}
-				if ( typeof(p.disallow) == 'object' ) {
-					_.map(p.disallow, function (d) {
-						str += 'Disallow: ' + d + '\n';
-					});
-					str += '\n';
+				if ( !p.disallow ) {
+					str += 'Disallow: \n\n';
+				} else {
+					if ( typeof(p.disallow) == 'string' ) {
+						str += 'Disallow: ' + p.disallow + '\n\n';
+					}
+					if ( typeof(p.disallow) == 'object' ) {
+						_.map(p.disallow, function (d) {
+							str += 'Disallow: ' + d + '\n';
+						});
+						str += '\n';
+					}
 				}
 			}
 		});
