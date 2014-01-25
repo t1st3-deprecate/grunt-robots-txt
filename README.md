@@ -68,6 +68,22 @@ Options
 
 
 
+Build from sources
+----------
+
+There is a build process (which involves Grunt) for this Grunt task. Basically, the process will check the code with [JSHint](http://jshint.com) and [JSCS](https://npmjs.org/package/jscs), and execute some tests.
+
+You can launch this process with the `grunt` command:
+
+```
+grunt
+```
+
+[![devDependency Status](https://david-dm.org/t1st3/grunt-robots-txt/dev-status.png?theme=shields.io)](https://david-dm.org/t1st3/grunt-robots-txt#info=devDependencies)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+
+
+
 License
 -----------
 
