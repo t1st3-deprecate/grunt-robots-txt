@@ -15,8 +15,10 @@
   },
   "keywords": [
     "gruntplugin",
-    "robots-txt",
+    "robots",
     "yahoo",
+		"google",
+		"bing",
     "seo",
     "txt"
   ],
