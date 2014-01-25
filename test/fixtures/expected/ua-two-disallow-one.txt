@@ -1,0 +1,6 @@
+User-agent: googlebot
+Disallow: /private/
+
+User-agent: BadBot
+Disallow: /admin/
+

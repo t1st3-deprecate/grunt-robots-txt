@@ -17,8 +17,8 @@
     "gruntplugin",
     "robots",
     "yahoo",
-		"google",
-		"bing",
+    "google",
+    "bing",
     "seo",
     "txt"
   ],
@@ -32,7 +32,15 @@
       "url": "https://github.com/T1st3/grunt-robots-txt/blob/master/LICENSE"
     }
   ],
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-jscs-checker": "~0.3.2",
+    "load-grunt-tasks": "~0.3.0",
+    "time-grunt": "~0.2.8",
+    "grunt-contrib-nodeunit": "~0.2.2"
+  },
   "peerDependencies": {
     "grunt": "~0.4.2"
   },
