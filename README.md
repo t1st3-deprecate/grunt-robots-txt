@@ -79,6 +79,13 @@ You can launch this process with the `grunt` command:
 grunt
 ```
 
+Or if you just want to test (and not check code):
+
+```
+grunt test
+```
+
+
 [![devDependency Status](https://david-dm.org/t1st3/grunt-robots-txt/dev-status.png?theme=shields.io)](https://david-dm.org/t1st3/grunt-robots-txt#info=devDependencies)
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 

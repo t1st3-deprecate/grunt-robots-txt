@@ -92,14 +92,18 @@ module.exports = function (grunt) {
 	
 	grunt.loadTasks('tasks');
 	
-	grunt.registerTask('default', [
-		'jshint',
-		'jscs',
+	grunt.registerTask('test', [
 		'clean',
 		'robotstxt:uaOneDisallowOne',
 		'robotstxt:uaOneDisallowTwo',
 		'robotstxt:uaTwoDisallowOne',
 		'robotstxt:uaTwoDisallowTwo',
 		'nodeunit'
+	]);
+	
+	grunt.registerTask('default', [
+		'jshint',
+		'jscs',
+		'test'
 	]);
 };
