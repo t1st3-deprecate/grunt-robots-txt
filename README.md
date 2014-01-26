@@ -94,4 +94,4 @@ grunt test
 License
 -----------
 
-This generator is released under the [MIT License](https://github.com/T1st3/grunt-robots-txt/blob/master/LICENSE).
+This plugin for Grunt is released under the [MIT License](https://github.com/T1st3/grunt-robots-txt/blob/master/LICENSE).
