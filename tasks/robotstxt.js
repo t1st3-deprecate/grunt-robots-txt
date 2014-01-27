@@ -8,14 +8,22 @@
  * Licensed under the MIT license.
  */
 
-var fs, path, _, chalk;
+var fs, path, _, chalk, updateNotifier, notifier;
 path = require('path');
 fs = require('fs');
 _ = require('lodash');
 chalk = require('chalk');
+updateNotifier = require('update-notifier');
 
 module.exports = function (grunt) {
 	return grunt.registerMultiTask('robotstxt', 'Generates robots.txt', function () {
+		notifier = updateNotifier({
+			packagePath: '../package.json',
+			packageName: 'grunt-robots-txt'
+		});
+		if (notifier.update) {
+			notifier.notify();
+		}
 		var policy, items, str, root, rootWarnMess, robotsPath;
 		root = path.normalize(this.data.dest || '.');
 		rootWarnMess = 'No "dest" parameter defined. Using current directory.';
