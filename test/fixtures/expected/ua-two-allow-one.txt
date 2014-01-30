@@ -1,4 +1,4 @@
 User-agent: googlebot
-Disallow: /private/
+Allow: /private/
 User-agent: BadBot
-Disallow: /admin/
+Allow: /admin/

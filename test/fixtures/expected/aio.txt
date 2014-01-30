@@ -1,0 +1,10 @@
+User-agent: googlebot
+Disallow: /test/
+Allow: /private/
+Allow: /admin/
+User-agent: BadBot
+Disallow: /new/
+Allow: /private1/
+Allow: /admin1/
+Sitemap: http://example.com/sitemap.xml
+Sitemap: http://alernate.org/sitemap.xml

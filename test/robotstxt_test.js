@@ -12,7 +12,12 @@ exports.robotstxt = {
 			'ua-one-disallow-one',
 			'ua-one-disallow-two',
 			'ua-two-disallow-one',
-			'ua-two-disallow-two'
+			'ua-two-disallow-two',
+			'ua-one-allow-one',
+			'ua-one-allow-two',
+			'ua-two-allow-one',
+			'ua-two-allow-two',
+			'aio'
 		];
 
 		test.expect(files.length);

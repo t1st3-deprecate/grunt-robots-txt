@@ -35,18 +35,35 @@ module.exports = function (grunt) {
 		items = _.map(policy, function (p) {
 			if (p.ua) {
 				str += 'User-agent: ' + p.ua + '\n';
-				if (!p.disallow) {
-					str += 'Disallow: \n\n';
-				} else {
+				if (p.disallow) {
 					if (typeof(p.disallow) === 'string') {
-						str += 'Disallow: ' + p.disallow + '\n\n';
+						str += 'Disallow: ' + p.disallow + '\n';
 					}
 					if (typeof(p.disallow) === 'object') {
 						_.map(p.disallow, function (d) {
 							str += 'Disallow: ' + d + '\n';
 						});
-						str += '\n';
 					}
+				}
+				if (p.allow) {
+					if (typeof(p.allow) === 'string') {
+						str += 'Allow: ' + p.allow + '\n';
+					}
+					if (typeof(p.allow) === 'object') {
+						_.map(p.allow, function (d) {
+							str += 'Allow: ' + d + '\n';
+						});
+					}
+				}
+			}
+			if (p.sitemap) {
+				if (typeof(p.sitemap) === 'string') {
+					str += 'Sitemap: ' + p.sitemap + '\n';
+				}
+				if (typeof(p.sitemap) === 'object') {
+					_.map(p.sitemap, function (d) {
+						str += 'Sitemap: ' + d + '\n';
+					});
 				}
 			}
 		});

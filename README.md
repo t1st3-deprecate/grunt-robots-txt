@@ -43,7 +43,15 @@ Configuration
 					},
 					{
 						ua: 'googlebot-news',
-						disallow: ['/other/', '/another/']
+						disallow: ['/other/', '/another/'],
+						allow: '/new/'
+					},
+					{
+						ua: 'googlebot-third',
+						allow: ['/new1/', 'new2']
+					},
+					{
+						sitemap: ['http://example.com/sitemap.xml', 'http://alernate.org/sitemap.xml']
 					}
 				]
 			}
@@ -61,10 +69,10 @@ Options
 	Path where robots.txt will be created
 
 
-* **policy**: `Object` *(`{ua: '*', disallow: ''}` by default)*
+* **policy**: `Object` *(`` by default)*
 
 	Hash of your policy.
-	Note that you can give an array of values for `disallow` in order to create multiple `Disallow` lines for the concerned User-agent.
+	Note that you can give an array of values for `disallow` in order to create multiple `Disallow` lines for the concerned User-agent. Same is possible for `Allow` lines.
 
 
 

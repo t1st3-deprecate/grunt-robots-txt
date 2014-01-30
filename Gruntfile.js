@@ -84,6 +84,68 @@ module.exports = function (grunt) {
 						disallow: ['/private1/', '/admin1/']
 					}
 				]
+			},
+			uaOneAllowOne: {
+				dest: 'tmp/test/ua-one-allow-one',
+				policy: [
+					{
+						ua: '*',
+						allow: '/private/'
+					}
+				]
+			},
+			uaOneAllowTwo: {
+				dest: 'tmp/test/ua-one-allow-two',
+				policy: [
+					{
+						ua: '*',
+						allow: ['/private/', '/admin/']
+					}
+				]
+			},
+			uaTwoAllowOne: {
+				dest: 'tmp/test/ua-two-allow-one',
+				policy: [
+					{
+						ua: 'googlebot',
+						allow: '/private/'
+					},
+					{
+						ua: 'BadBot',
+						allow: '/admin/'
+					}
+				]
+			},
+			uaTwoAllowTwo: {
+				dest: 'tmp/test/ua-two-allow-two',
+				policy: [
+					{
+						ua: 'googlebot',
+						allow: ['/private/', '/admin/']
+					},
+					{
+						ua: 'BadBot',
+						allow: ['/private1/', '/admin1/']
+					}
+				]
+			},
+			aio: {
+				dest: 'tmp/test/aio',
+				policy: [
+					{
+						ua: 'googlebot',
+						disallow: '/test/',
+						allow: ['/private/', '/admin/']
+					},
+					{
+						ua: 'BadBot',
+						disallow: '/new/',
+						allow: ['/private1/', '/admin1/']
+					},
+					{
+						sitemap: ['http://example.com/sitemap.xml', 'http://alernate.org/sitemap.xml']
+					}
+				]
 			}
 		},
 		nodeunit: {
@@ -99,6 +161,11 @@ module.exports = function (grunt) {
 		'robotstxt:uaOneDisallowTwo',
 		'robotstxt:uaTwoDisallowOne',
 		'robotstxt:uaTwoDisallowTwo',
+		'robotstxt:uaOneAllowOne',
+		'robotstxt:uaOneAllowTwo',
+		'robotstxt:uaTwoAllowOne',
+		'robotstxt:uaTwoAllowTwo',
+		'robotstxt:aio',
 		'nodeunit'
 	]);
 	
