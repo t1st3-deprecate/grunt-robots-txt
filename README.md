@@ -55,6 +55,9 @@ Configuration
 					},
 					{
 						crawldelay: 100
+					},
+					{
+						host: 'www.example.org'
 					}
 				]
 			}
@@ -75,7 +78,11 @@ Options
 * **policy**: `Object` *(`` by default)*
 
 	Hash of your policy.
-	Note that you can give an array of values for `disallow` in order to create multiple `Disallow` lines for the concerned User-agent. Same is possible for `Allow` lines.
+	Note that you can give an array of values for `disallow` in order to create multiple `Disallow` lines for the concerned User-agent. Same is possible for `Allow` and `Sitemap` lines.
+
+	There can be only 1 `Crawl-delay` option, and only 1 `Host` option. If you supply more, only th last one will be added to the robots.txt file.
+
+	As `Sitemap`, `Crawl-delay` and `Host` are non-standard, if you don't supply any of these in your config, your robots.txt will not include these options by default.
 
 
 

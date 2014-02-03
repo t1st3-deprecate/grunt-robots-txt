@@ -69,6 +69,9 @@ module.exports = function (grunt) {
 			if (p.crawldelay && typeof(p.crawldelay) === 'number') {
 				str += 'Crawl-delay: ' + p.crawldelay;
 			}
+			if (p.host && typeof(p.host) === 'string') {
+				str += 'Host: ' + p.host;
+			}
 		});
 		robotsPath = path.join(root, 'robots.txt');
 		grunt.file.write(robotsPath, str);

@@ -147,6 +147,9 @@ module.exports = function (grunt) {
 					},
 					{
 						crawldelay: 100
+					},
+					{
+						host: 'www.example.org'
 					}
 				]
 			}
