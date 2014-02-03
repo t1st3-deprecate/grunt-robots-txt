@@ -8,3 +8,4 @@ Allow: /private1/
 Allow: /admin1/
 Sitemap: http://example.com/sitemap.xml
 Sitemap: http://alernate.org/sitemap.xml
+Crawl-delay: 100

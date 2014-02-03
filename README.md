@@ -52,6 +52,9 @@ Configuration
 					},
 					{
 						sitemap: ['http://example.com/sitemap.xml', 'http://alernate.org/sitemap.xml']
+					},
+					{
+						crawldelay: 100
 					}
 				]
 			}

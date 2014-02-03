@@ -144,6 +144,9 @@ module.exports = function (grunt) {
 					},
 					{
 						sitemap: ['http://example.com/sitemap.xml', 'http://alernate.org/sitemap.xml']
+					},
+					{
+						crawldelay: 100
 					}
 				]
 			}

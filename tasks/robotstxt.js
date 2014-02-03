@@ -66,6 +66,9 @@ module.exports = function (grunt) {
 					});
 				}
 			}
+			if (p.crawldelay && typeof(p.crawldelay) === 'number') {
+				str += 'Crawl-delay: ' + p.crawldelay;
+			}
 		});
 		robotsPath = path.join(root, 'robots.txt');
 		grunt.file.write(robotsPath, str);
