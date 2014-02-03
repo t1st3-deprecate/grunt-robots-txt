@@ -32,45 +32,50 @@ module.exports = function (grunt) {
 		}
 		policy = this.data.policy || {'ua': '*', 'disallow': ''};
 		str = '';
+		var n = 0;
 		items = _.map(policy, function (p) {
 			if (p.ua) {
-				str += 'User-agent: ' + p.ua + '\n';
+				if (n !== 0) {
+					str += '\n';
+				}
+				n += 1;
+				str += 'User-agent: ' + p.ua;
 				if (p.disallow) {
 					if (typeof(p.disallow) === 'string') {
-						str += 'Disallow: ' + p.disallow + '\n';
+						str += '\nDisallow: ' + p.disallow;
 					}
 					if (typeof(p.disallow) === 'object') {
 						_.map(p.disallow, function (d) {
-							str += 'Disallow: ' + d + '\n';
+							str += '\nDisallow: ' + d;
 						});
 					}
 				}
 				if (p.allow) {
 					if (typeof(p.allow) === 'string') {
-						str += 'Allow: ' + p.allow + '\n';
+						str += '\nAllow: ' + p.allow;
 					}
 					if (typeof(p.allow) === 'object') {
 						_.map(p.allow, function (d) {
-							str += 'Allow: ' + d + '\n';
+							str += '\nAllow: ' + d;
 						});
 					}
 				}
 			}
 			if (p.sitemap) {
 				if (typeof(p.sitemap) === 'string') {
-					str += 'Sitemap: ' + p.sitemap + '\n';
+					str += '\nSitemap: ' + p.sitemap;
 				}
 				if (typeof(p.sitemap) === 'object') {
 					_.map(p.sitemap, function (d) {
-						str += 'Sitemap: ' + d + '\n';
+						str += '\nSitemap: ' + d;
 					});
 				}
 			}
 			if (p.crawldelay && typeof(p.crawldelay) === 'number') {
-				str += 'Crawl-delay: ' + p.crawldelay;
+				str += '\nCrawl-delay: ' + p.crawldelay;
 			}
 			if (p.host && typeof(p.host) === 'string') {
-				str += 'Host: ' + p.host;
+				str += '\nHost: ' + p.host;
 			}
 		});
 		robotsPath = path.join(root, 'robots.txt');
