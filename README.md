@@ -113,3 +113,6 @@ License
 -----------
 
 This plugin for Grunt is released under the [MIT License](https://github.com/T1st3/grunt-robots-txt/blob/master/LICENSE).
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/T1st3/grunt-robots-txt/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
