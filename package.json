@@ -33,22 +33,22 @@
     }
   ],
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-jshint": "~0.11.3",
     "grunt": "~0.4.2",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-jscs-checker": "~0.3.2",
-    "load-grunt-tasks": "~0.3.0",
-    "time-grunt": "~0.2.8",
-    "grunt-contrib-nodeunit": "~0.3.0",
-    "jshint-stylish": "~0.1.5"
+    "grunt-contrib-clean": "~0.7.0",
+    "grunt-jscs-checker": "~0.8.1",
+    "load-grunt-tasks": "~3.3.0",
+    "time-grunt": "~1.2.2",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "jshint-stylish": "~2.1.0"
   },
   "peerDependencies": {
     "grunt": "~0.4.2"
   },
   "dependencies": {
-    "lodash": "~2.4.1",
-    "chalk": "~0.4.0",
-    "update-notifier": "~0.1.7"
+    "lodash": "~3.10.1",
+    "chalk": "~1.1.1",
+    "update-notifier": "~0.6.0"
   },
   "scripts": {
     "test": "grunt"
