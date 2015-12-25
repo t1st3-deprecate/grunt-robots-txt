@@ -3,7 +3,7 @@ grunt-robots-txt
 
 **Grunt plugin for generating robots.txt.**
 
-[![NPM version](https://badge.fury.io/js/grunt-robots-txt.png)](http://badge.fury.io/js/grunt-robots-txt)
+[![NPM version](https://img.shields.io/npm/v/grunt-robots-txt.svg)](https://www.npmjs.com/package/grunt-robots-txt)
 [![Dependency Status](https://david-dm.org/t1st3/grunt-robots-txt.png?theme=shields.io)](https://david-dm.org/t1st3/grunt-robots-txt)
 [![Build Status](https://travis-ci.org/T1st3/grunt-robots-txt.png?branch=master)](https://travis-ci.org/T1st3/grunt-robots-txt)
 
