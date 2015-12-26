@@ -9,7 +9,7 @@
 'use strict';
 
 module.exports = function (grunt) {
-	
+
 	require('time-grunt')(grunt);
 
 	require('load-grunt-tasks')(grunt, {
@@ -17,7 +17,7 @@ module.exports = function (grunt) {
 		config: 'package.json',
 		pattern: ['grunt-*']
 	});
-	
+
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 		jshint: {
@@ -158,9 +158,9 @@ module.exports = function (grunt) {
 			tests: ['test/*_test.js']
 		}
 	});
-	
+
 	grunt.loadTasks('tasks');
-	
+
 	grunt.registerTask('test', [
 		'clean',
 		'robotstxt:uaOneDisallowOne',
@@ -174,7 +174,7 @@ module.exports = function (grunt) {
 		'robotstxt:aio',
 		'nodeunit'
 	]);
-	
+
 	grunt.registerTask('default', [
 		'jshint',
 		'jscs',

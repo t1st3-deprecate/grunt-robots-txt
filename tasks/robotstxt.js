@@ -24,7 +24,7 @@ module.exports = function (grunt) {
 		if (notifier.update) {
 			notifier.notify();
 		}
-		var policy, items, str, root, rootWarnMess, robotsPath;
+		var policy, items, str, root, rootWarnMess, robotsPath, n;
 		root = path.normalize(this.data.dest || '.');
 		rootWarnMess = 'No "dest" parameter defined. Using current directory.';
 		if (root === '.') {
@@ -32,7 +32,7 @@ module.exports = function (grunt) {
 		}
 		policy = this.data.policy || {'ua': '*', 'disallow': ''};
 		str = '';
-		var n = 0;
+		n = 0;
 		items = _.map(policy, function (p) {
 			if (p.ua) {
 				if (n !== 0) {

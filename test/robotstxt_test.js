@@ -1,9 +1,10 @@
 'use strict';
 
-var grunt = require('grunt');
+var grunt, tmp, fixtures;
 
-var tmp = 'tmp/test/',
-	fixtures = 'test/fixtures/expected/';
+grunt = require('grunt');
+tmp = 'tmp/test/';
+fixtures = 'test/fixtures/expected/';
 
 exports.robotstxt = {
 	robotsCreated: function (test) {
@@ -23,8 +24,9 @@ exports.robotstxt = {
 		test.expect(files.length);
 
 		files.forEach(function (file) {
-			var actual = grunt.file.read(tmp + file + '/robots.txt');
-			var expected = grunt.file.read(fixtures + file + '.txt');
+			var actual, expected;
+			actual = grunt.file.read(tmp + file + '/robots.txt');
+			expected = grunt.file.read(fixtures + file + '.txt');
 			test.equal(actual, expected, 'task output should equal ' + file);
 		});
 
