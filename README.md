@@ -70,12 +70,12 @@ Options
 ----------
 
 
-* **dest**: `String` *(`./` by default)*
+* **dest**: `String` *('./' by default)*
 
 	Path where robots.txt will be created
 
 
-* **policy**: `Object` *(`` by default)*
+* **policy**: `Object` *('' by default)*
 
 	Hash of your policy.
 	Note that you can give an array of values for `disallow` in order to create multiple `Disallow` lines for the concerned User-agent. Same is possible for `Allow` and `Sitemap` lines.
