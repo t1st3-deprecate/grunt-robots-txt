@@ -5,7 +5,7 @@ grunt-robots-txt
 
 [![NPM version](https://img.shields.io/npm/v/grunt-robots-txt.svg)](https://www.npmjs.com/package/grunt-robots-txt)
 [![Dependency Status](https://david-dm.org/t1st3/grunt-robots-txt.png?theme=shields.io)](https://david-dm.org/t1st3/grunt-robots-txt)
-[![Build Status](https://travis-ci.org/T1st3/grunt-robots-txt.png?branch=master)](https://travis-ci.org/T1st3/grunt-robots-txt)
+[![Build Status](https://travis-ci.org/t1st3/grunt-robots-txt.png?branch=master)](https://travis-ci.org/t1st3/grunt-robots-txt)
 
 
 Installation
@@ -112,4 +112,4 @@ grunt test
 License
 -----------
 
-This plugin for Grunt is released under the [MIT License](https://github.com/T1st3/grunt-robots-txt/blob/master/LICENSE.md).
+This plugin for Grunt is released under the [MIT License](https://github.com/t1st3/grunt-robots-txt/blob/master/LICENSE.md).
