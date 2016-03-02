@@ -1,6 +1,7 @@
 ## Change Log
 
 ### 0.3.3 (2016/03/02 16:36 +00:00)
+- [5ba3293](https://github.com/t1st3/grunt-robots-txt/commit/5ba3293ec28b9b6a0f26f141764a5c569a856a77) chore: v0.3.3 (@t1st3)
 - [bbe32b3](https://github.com/t1st3/grunt-robots-txt/commit/bbe32b3f24d2246a4f589c6019bae9936f75432e) chore(package): update update-notifier to version 0.6.1 (@t1st3)
 - [#17](https://github.com/t1st3/grunt-robots-txt/pull/17) chore(package): update load-grunt-tasks to version 3.4.1 (@t1st3)
 - [e3d4328](https://github.com/t1st3/grunt-robots-txt/commit/e3d43280540b89bb7b993d582dbd6f7d3a5e806e) chore(package): update load-grunt-tasks to version 3.4.1 (@greenkeeperio-bot)
