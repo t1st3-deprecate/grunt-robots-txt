@@ -1,5 +1,19 @@
 ## Change Log
 
+### 0.3.5 (2016/03/16 10:00 +00:00)
+- [#22](https://github.com/t1st3/grunt-robots-txt/pull/22) use current update-notifier API (@charlierudolph)
+- [4f06c0d](https://github.com/t1st3/grunt-robots-txt/commit/4f06c0d364f2f8b355e8c5765b8e0ee06682bfee) use current update-notifier API (@charlierudolph)
+- [#20](https://github.com/t1st3/grunt-robots-txt/pull/20) Update grunt-contrib-nodeunit to version 1.0.0 🚀 (@t1st3)
+- [706e892](https://github.com/t1st3/grunt-robots-txt/commit/706e892e31c3c0ea73b1cb4b569781a09873372f) chore(package): update grunt-contrib-nodeunit to version 1.0.0 (@greenkeeperio-bot)
+- [#19](https://github.com/t1st3/grunt-robots-txt/pull/19) chore(package): update grunt-jscs to version 2.8.0 (@t1st3)
+- [#18](https://github.com/t1st3/grunt-robots-txt/pull/18) chore(package): update lodash to version 4.6.1 (@t1st3)
+- [d4002f8](https://github.com/t1st3/grunt-robots-txt/commit/d4002f801da010865694d1c706d5e128453e2cee) chore(package): update grunt-jscs to version 2.8.0 (@greenkeeperio-bot)
+- [9146428](https://github.com/t1st3/grunt-robots-txt/commit/9146428c56e7ace211923c1a76185fb825a68a24) chore(package): update lodash to version 4.6.1 (@greenkeeperio-bot)
+
+### 0.3.4 (2016/03/02 16:40 +00:00)
+- [6482231](https://github.com/t1st3/grunt-robots-txt/commit/6482231646eb2418b75f7730d8cee186f8475c7a) chore: v0.3.4 (@t1st3)
+- [abb72a7](https://github.com/t1st3/grunt-robots-txt/commit/abb72a7c1dbccd7b6814265ce56e77c8b04b1af9) docs: T1st3 to t1st3 (@t1st3)
+
 ### 0.3.3 (2016/03/02 16:36 +00:00)
 - [5ba3293](https://github.com/t1st3/grunt-robots-txt/commit/5ba3293ec28b9b6a0f26f141764a5c569a856a77) chore: v0.3.3 (@t1st3)
 - [bbe32b3](https://github.com/t1st3/grunt-robots-txt/commit/bbe32b3f24d2246a4f589c6019bae9936f75432e) chore(package): update update-notifier to version 0.6.1 (@t1st3)
