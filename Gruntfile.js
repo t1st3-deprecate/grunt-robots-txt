@@ -20,23 +20,6 @@ module.exports = function (grunt) {
 
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
-		jshint: {
-			options: {
-				jshintrc: '.jshintrc',
-				reporter: require('jshint-stylish')
-			},
-			all: [
-				'Gruntfile.js',
-				'tasks/**/*.js',
-				'test/**/*.js'
-			]
-		},
-		jscs: {
-			src: ['Gruntfile.js', 'tasks/**/*.js', 'test/**/*.js'],
-			options: {
-				config: '.jscs.json'
-			}
-		},
 		clean: {
 			tests: ['tmp']
 		},
@@ -176,8 +159,6 @@ module.exports = function (grunt) {
 	]);
 
 	grunt.registerTask('default', [
-		'jshint',
-		'jscs',
 		'test'
 	]);
 };
