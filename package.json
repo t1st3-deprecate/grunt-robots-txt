@@ -2,15 +2,15 @@
   "name": "grunt-robots-txt",
   "version": "0.3.5",
   "description": "Grunt plugin which generates a robots.txt file",
-  "homepage": "https://github.com/T1st3/grunt-robots-txt",
+  "homepage": "https://github.com/t1st3/grunt-robots-txt",
   "repository": {
     "type": "git",
-    "url": "git://github.com/T1st3/grunt-robots-txt.git"
+    "url": "git://github.com/t1st3/grunt-robots-txt.git"
   },
   "license": "MIT",
-  "bugs": "https://github.com/T1st3/grunt-robots-txt.git/issues",
+  "bugs": "https://github.com/t1st3/grunt-robots-txt.git/issues",
   "author": {
-    "name": "T1st3",
+    "name": "t1st3",
     "email": "contact@tiste.org",
     "url": "http://www.tiste.org"
   },

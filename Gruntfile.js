@@ -1,8 +1,8 @@
 /*
  * grunt-robots-txt
- * https://github.com/T1st3/grunt-robots-txt
+ * https://github.com/t1st3/grunt-robots-txt
  *
- * Copyright (c) 2014 T1st3
+ * Copyright (c) 2014 t1st3
  * Licensed under the MIT license.
  */
 

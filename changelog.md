@@ -12,7 +12,7 @@
 
 ### 0.3.4 (2016/03/02 16:40 +00:00)
 - [6482231](https://github.com/t1st3/grunt-robots-txt/commit/6482231646eb2418b75f7730d8cee186f8475c7a) chore: v0.3.4 (@t1st3)
-- [abb72a7](https://github.com/t1st3/grunt-robots-txt/commit/abb72a7c1dbccd7b6814265ce56e77c8b04b1af9) docs: T1st3 to t1st3 (@t1st3)
+- [abb72a7](https://github.com/t1st3/grunt-robots-txt/commit/abb72a7c1dbccd7b6814265ce56e77c8b04b1af9) docs: t1st3 to t1st3 (@t1st3)
 
 ### 0.3.3 (2016/03/02 16:36 +00:00)
 - [5ba3293](https://github.com/t1st3/grunt-robots-txt/commit/5ba3293ec28b9b6a0f26f141764a5c569a856a77) chore: v0.3.3 (@t1st3)
@@ -36,11 +36,11 @@
 - [001db72](https://github.com/t1st3/grunt-robots-txt/commit/001db72b8daa8d00ef1ed20e92671fc26c5d4c27) chore(package): update lodash to version 4.3.0 (@greenkeeperio-bot)
 - [#9](https://github.com/t1st3/grunt-robots-txt/pull/9) chore(package): update lodash to version 4.2.1 (@t1st3)
 - [116e0cf](https://github.com/t1st3/grunt-robots-txt/commit/116e0cf698abf90a68412b4a2d9016a3c4da1757) chore(package): update lodash to version 4.2.1 (@greenkeeperio-bot)
-- [#8](https://github.com/t1st3/grunt-robots-txt/pull/8) lodash@4.0.1 (@T1st3)
+- [#8](https://github.com/t1st3/grunt-robots-txt/pull/8) lodash@4.0.1 (@t1st3)
 - [5e3a1fc](https://github.com/t1st3/grunt-robots-txt/commit/5e3a1fc8c64016748fbdc86e6957d6d95a086e45) chore(package): update lodash to version 4.0.1 (@greenkeeperio-bot)
-- [#7](https://github.com/t1st3/grunt-robots-txt/pull/7) Update grunt-contrib-jshint to version 0.12.0 🚀 (@T1st3)
+- [#7](https://github.com/t1st3/grunt-robots-txt/pull/7) Update grunt-contrib-jshint to version 0.12.0 🚀 (@t1st3)
 - [5d22687](https://github.com/t1st3/grunt-robots-txt/commit/5d22687764d31c90ddbe136dc5670806677390ce) chore(package): update grunt-contrib-jshint to version 0.12.0 (@greenkeeperio-bot)
-- [#6](https://github.com/t1st3/grunt-robots-txt/pull/6) Update lodash to version 4.0.0 🚀 (@T1st3)
+- [#6](https://github.com/t1st3/grunt-robots-txt/pull/6) Update lodash to version 4.0.0 🚀 (@t1st3)
 - [cba0b59](https://github.com/t1st3/grunt-robots-txt/commit/cba0b59cbadae6eee43048cfd65fcca4e9bffa3f) chore(package): update lodash to version 4.0.0 (@greenkeeperio-bot)
 - [d4297c3](https://github.com/t1st3/grunt-robots-txt/commit/d4297c36f6d378758223d82d5d221badcdadc948) chore: indentation in .travis.yml (@t1st3)
 - [aac243c](https://github.com/t1st3/grunt-robots-txt/commit/aac243cb9cbbcedd610bfe336c3845cf7b933a5b) docs: fix apostrophes (@t1st3)
