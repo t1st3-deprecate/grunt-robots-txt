@@ -112,4 +112,4 @@ grunt test
 License
 -----------
 
-This plugin for Grunt is released under the [MIT License](https://github.com/t1st3/grunt-robots-txt/blob/master/LICENSE.md).
+This plugin for Grunt is released under the [MIT License](https://github.com/t1st3/grunt-robots-txt/blob/master/license).
