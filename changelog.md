@@ -1,6 +1,13 @@
 ## Change Log
 
-### 0.4.0 (2016/08/04 19:00 +00:00)
+### 0.4.1 (2016/08/06 11:27 +00:00)
+- [ca70186](https://github.com/t1st3/grunt-robots-txt/commit/ca70186c6a29ac10a73b18b0d0bfcf2675f0de99) Merge branch 'master' of github.com:t1st3/grunt-robots-txt (@t1st3)
+- [75155e3](https://github.com/t1st3/grunt-robots-txt/commit/75155e38619ac59a3868431897ba5c5a3abc3d05) test: refactor tests (@t1st3)
+- [0caf117](https://github.com/t1st3/grunt-robots-txt/commit/0caf117deb5b8f0857b28a98d2df89f7e3f48568) docs(readme): fix license url (@t1st3)
+- [9e849a1](https://github.com/t1st3/grunt-robots-txt/commit/9e849a1b1d5b310305b726250785ad9b47121f88) chore: bump main-bower-files to 2.13.0 (@t1st3)
+
+### 0.4.0 (2016/08/04 19:01 +00:00)
+- [e37fe2f](https://github.com/t1st3/grunt-robots-txt/commit/e37fe2f4d531fcefe56cb4f3aa791d16b6ce03de) chore: v0.4.0 (@t1st3)
 - [0ca8cef](https://github.com/t1st3/grunt-robots-txt/commit/0ca8cef86ec1c6665f7f1110da18b103ed280e3c) chore: minor tweaks (@t1st3)
 - [6b19cc3](https://github.com/t1st3/grunt-robots-txt/commit/6b19cc3bda83346e8c0597b12d0bcc932d180503) chore: T1st3 => t1st3 (@t1st3)
 - [af8d358](https://github.com/t1st3/grunt-robots-txt/commit/af8d3585f292158046a6db88245795f0f146e44b) refactor: replace jshint/jscs with xo/eslint (@t1st3)

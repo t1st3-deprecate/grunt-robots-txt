@@ -1,6 +1,6 @@
 {
   "name": "grunt-robots-txt",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Grunt plugin which generates a robots.txt file",
   "repository": {
     "type": "git",
