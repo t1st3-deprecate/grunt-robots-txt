@@ -9,20 +9,8 @@
 'use strict';
 
 module.exports = function (grunt) {
-
-	require('time-grunt')(grunt);
-
-	require('load-grunt-tasks')(grunt, {
-		scope: 'devDependencies',
-		config: 'package.json',
-		pattern: ['grunt-*']
-	});
-
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
-		clean: {
-			tests: ['tmp']
-		},
 		robotstxt: {
 			uaOneDisallowOne: {
 				dest: 'tmp/test/ua-one-disallow-one',
@@ -136,16 +124,12 @@ module.exports = function (grunt) {
 					}
 				]
 			}
-		},
-		nodeunit: {
-			tests: ['test/*_test.js']
 		}
 	});
 
 	grunt.loadTasks('tasks');
 
-	grunt.registerTask('test', [
-		'clean',
+	grunt.registerTask('prepare', [
 		'robotstxt:uaOneDisallowOne',
 		'robotstxt:uaOneDisallowTwo',
 		'robotstxt:uaTwoDisallowOne',
@@ -154,11 +138,10 @@ module.exports = function (grunt) {
 		'robotstxt:uaOneAllowTwo',
 		'robotstxt:uaTwoAllowOne',
 		'robotstxt:uaTwoAllowTwo',
-		'robotstxt:aio',
-		'nodeunit'
+		'robotstxt:aio'
 	]);
 
 	grunt.registerTask('default', [
-		'test'
+		'prepare'
 	]);
 };
