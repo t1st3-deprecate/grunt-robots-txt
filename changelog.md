@@ -1,6 +1,14 @@
 ## Change Log
 
-### 0.4.1 (2016/08/06 11:27 +00:00)
+### 1.0.0 (2016/10/14 13:55 +00:00)
+- [0c74553](https://github.com/t1st3/grunt-robots-txt/commit/0c74553e863be3fcfbbeae8d7e1d7904d269d622) chore: BREAKING - drop support for Node.js 0.10 and 0.12 (@t1st3)
+- [a66c4f1](https://github.com/t1st3/grunt-robots-txt/commit/a66c4f1a12b6eab05577eed803d86c61cdb5f55c) chore: BREAKING - drop support for Node.js 0.10 and 0.12 (@t1st3)
+- [f22440d](https://github.com/t1st3/grunt-robots-txt/commit/f22440dc23f72ecefe79e5a50c1c6ae94b2b8a54) chore: set unicorn version for xo (@t1st3)
+- [#31](https://github.com/t1st3/grunt-robots-txt/pull/31) chore(package): update mocha to version 3.0.2 (@t1st3)
+- [f17aeaf](https://github.com/t1st3/grunt-robots-txt/commit/f17aeaf295bf91ada9f9df8d94561e6119d5f0da) chore(package): update mocha to version 3.0.2 (@greenkeeperio-bot)
+
+### 0.4.1 (2016/08/06 11:28 +00:00)
+- [c871a0b](https://github.com/t1st3/grunt-robots-txt/commit/c871a0bf85e41cf3f8251269336616af65f50f0f) chore: v0.4.1 (@t1st3)
 - [ca70186](https://github.com/t1st3/grunt-robots-txt/commit/ca70186c6a29ac10a73b18b0d0bfcf2675f0de99) Merge branch 'master' of github.com:t1st3/grunt-robots-txt (@t1st3)
 - [75155e3](https://github.com/t1st3/grunt-robots-txt/commit/75155e38619ac59a3868431897ba5c5a3abc3d05) test: refactor tests (@t1st3)
 - [0caf117](https://github.com/t1st3/grunt-robots-txt/commit/0caf117deb5b8f0857b28a98d2df89f7e3f48568) docs(readme): fix license url (@t1st3)
