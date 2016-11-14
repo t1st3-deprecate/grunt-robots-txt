@@ -1,6 +1,8 @@
 grunt-robots-txt
 ================
 
+**UNMAINTAINED** | This project is not maintained anymore (as of 2016 November 14).
+
 **Grunt plugin for generating robots.txt.**
 
 [![NPM version](https://img.shields.io/npm/v/grunt-robots-txt.svg)](https://www.npmjs.com/package/grunt-robots-txt)
